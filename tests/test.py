@@ -1,9 +1,6 @@
 import micromagneticdata as md
 import numpy as np
 import xarray as xr
-# import time
-
-# start_time = time.time()
 
 data_path = "/home/swapneel/Projects/Ubermag-SRDFT/data/"
 sim_data = md.Data(name="SkyStable", dirname=data_path)
