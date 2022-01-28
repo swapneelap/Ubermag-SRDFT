@@ -135,7 +135,7 @@ def to_xarray_dataset(drive):
     return m_time_dataset
 
 
-def xarray_dataset_rfft(ds):
+def rfft_xarray_dataset(ds):
     """RFFT of xarray.Dataset and return transform as xarray.Dataset."""
 
     total_steps = ds.attrs['n']
